@@ -2,6 +2,8 @@ schema: "paperclip/v1"
 agents:
   ceo:
     role: "ceo"
+    icon: "crown"
+    capabilities: "Strategic direction, prioritization, delegation, hiring, unblocking teams, cross-functional coordination, board communication."
     adapter:
       config:
         dangerouslySkipPermissions: true
@@ -137,6 +139,8 @@ agents:
         maxConcurrentRuns: 1
   agent-debugger:
     role: "general"
+    icon: "bug"
+    capabilities: "Debugging specialist: root cause analysis, stack trace interpretation, race conditions, memory issues, performance profiling, production incident response, postmortems."
     adapter:
       config:
         command: "claude"
