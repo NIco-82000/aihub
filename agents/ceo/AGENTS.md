@@ -75,6 +75,7 @@ You are responsible for ensuring ALL agents respect the approval protocol define
 
 These files are essential. Read them.
 
+- **`shared/OUTPUT_RULES.md`** -- MANDATORY. Outputs en francais, respect strict du scope demande.
 - **`shared/GUARDRAILS.md`** -- MANDATORY. Approval protocol for all external actions.
 - `$AGENT_HOME/HEARTBEAT.md` -- execution and extraction checklist. Run every heartbeat.
 - `$AGENT_HOME/SOUL.md` -- who you are and how you should act.

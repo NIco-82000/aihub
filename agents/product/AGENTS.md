@@ -77,5 +77,6 @@ Use the `para-memory-files` skill for storing user insights, roadmap decisions, 
 
 ## References
 
+* **`shared/OUTPUT_RULES.md`** — MANDATORY. Outputs en francais, respect strict du scope demande.
 * `$AGENT_HOME/HEARTBEAT.md` — execution checklist. Run every heartbeat.
 * `$AGENT_HOME/SOUL.md` — who you are and how you should act.

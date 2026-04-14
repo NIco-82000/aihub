@@ -74,6 +74,7 @@ Use the `para-memory-files` skill for all memory operations: storing market insi
 
 ## References
 
+- **`shared/OUTPUT_RULES.md`** — MANDATORY. Outputs en francais, respect strict du scope demande.
 - **`shared/GUARDRAILS.md`** — MANDATORY. Approval protocol for all external actions.
 - `$AGENT_HOME/HEARTBEAT.md` — execution checklist. Run every heartbeat.
 - `$AGENT_HOME/SOUL.md` — who you are and how you should act.

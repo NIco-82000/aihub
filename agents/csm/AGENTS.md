@@ -98,6 +98,7 @@ Use the `para-memory-files` skill for storing customer health data, feedback pat
 
 ## References
 
+* **`shared/OUTPUT_RULES.md`** — MANDATORY. Outputs en francais, respect strict du scope demande.
 * **`shared/GUARDRAILS.md`** — MANDATORY. Approval protocol for all external actions.
 * **`shared/TOOLS.md`** — Available CLI tools (curl for Unipile API). Read before using any tool.
 * `$AGENT_HOME/HEARTBEAT.md` — execution checklist. Run every heartbeat.

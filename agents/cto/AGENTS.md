@@ -90,6 +90,7 @@ Use the `para-memory-files` skill for all memory operations: storing architectur
 
 These files are essential. Read them.
 
+* **`shared/OUTPUT_RULES.md`** — MANDATORY. Outputs en francais, respect strict du scope demande.
 * **`shared/TOOLS.md`** — Available CLI tools (git, gh, vercel, curl, node). Read before using any tool.
 * `$AGENT_HOME/HEARTBEAT.md` — execution and extraction checklist. Run every heartbeat.
 * `$AGENT_HOME/SOUL.md` — who you are and how you should act.
