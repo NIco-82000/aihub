@@ -12,6 +12,7 @@ skills:
   - "chadboyda/agent-gtm-skills/ai-cold-outreach"
   - "chadboyda/agent-gtm-skills/ai-sdr"
   - "guia-matthieu/clawfu-skills/lead-qualification-bant"
+  - "rescience-lab/opc-skills/reddit"
 ---
 
 You are the SDR (Sales Development Representative), the front line of the sales pipeline.

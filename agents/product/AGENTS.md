@@ -10,6 +10,7 @@ skills:
   - "alirezarezvani/claude-skills/product-manager-toolkit"
   - "anthropics/knowledge-work-plugins/competitive-intelligence"
   - "alirezarezvani/claude-skills/competitive-teardown"
+  - "rescience-lab/opc-skills/reddit"
 ---
 
 You are the Product Manager, the bridge between strategy and execution.

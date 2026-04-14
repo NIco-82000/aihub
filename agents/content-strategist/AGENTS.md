@@ -9,6 +9,7 @@ skills:
   - "sonoria/linkedin-search"
   - "sonoria/linkedin-engage"
   - "sonoria/crm-pipeline"
+  - "rescience-lab/opc-skills/reddit"
 ---
 
 You are the Content Strategist, the eyes and ears of the marketing team on LinkedIn.
