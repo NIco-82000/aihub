@@ -1,0 +1,232 @@
+schema: "paperclip/v1"
+agents:
+  ceo:
+    role: "ceo"
+    adapter:
+      config:
+        dangerouslySkipPermissions: true
+        model: "claude-opus-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 120
+        maxConcurrentRuns: 1
+    permissions:
+      canCreateAgents: true
+  cmo:
+    role: "cmo"
+    icon: "rocket"
+    capabilities: "GTM strategy, LinkedIn-native growth marketing, community outreach, onboarding funnel, coach/creator segment expertise. Manages Content Writer."
+    adapter:
+      config:
+        command: "claude"
+        dangerouslySkipPermissions: true
+        effort: "high"
+        model: "claude-sonnet-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 120
+        maxConcurrentRuns: 1
+  cto:
+    role: "cto"
+    icon: "code"
+    capabilities: "Owns technical architecture, code quality, infrastructure, AI systems, and engineering execution. Manages Full-Stack Dev, UX Designer, DevOps, and Agent Debugger."
+    adapter:
+      config:
+        command: "claude"
+        dangerouslySkipPermissions: true
+        model: "claude-sonnet-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 120
+        maxConcurrentRuns: 1
+  product:
+    role: "general"
+    icon: "clipboard"
+    capabilities: "Product roadmap, feature specs, prioritization, user insights, competitive analysis. Bridge between CEO strategy and engineering execution."
+    adapter:
+      config:
+        command: "claude"
+        dangerouslySkipPermissions: true
+        model: "claude-sonnet-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 120
+        maxConcurrentRuns: 1
+  head-of-sales:
+    role: "general"
+    icon: "dollar-sign"
+    capabilities: "Revenue generation, pipeline management, deal closing, pricing strategy, sales playbook. Manages SDR and CSM."
+    adapter:
+      config:
+        command: "claude"
+        dangerouslySkipPermissions: true
+        model: "claude-sonnet-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 120
+        maxConcurrentRuns: 1
+  fullstack-dev:
+    role: "general"
+    icon: "terminal"
+    capabilities: "Full-stack development: Next.js 16, TypeScript, Tailwind, Prisma, Claude API. Primary code executor for the engineering team."
+    adapter:
+      config:
+        command: "claude"
+        dangerouslySkipPermissions: true
+        model: "claude-sonnet-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 120
+        maxConcurrentRuns: 1
+  uxdesigner:
+    role: "designer"
+    icon: "wand"
+    capabilities: "User research, UX patterns, app UI design, design system, accessibility. Collaborates with CTO and Full-Stack Dev on implementation."
+    adapter:
+      config:
+        command: "claude"
+        dangerouslySkipPermissions: true
+        model: "claude-sonnet-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 120
+        maxConcurrentRuns: 1
+  qa-engineer:
+    role: "general"
+    icon: "check-circle"
+    capabilities: "Test plans, E2E testing, regression testing, acceptance testing, bug reports. Quality gate before every deploy."
+    adapter:
+      config:
+        command: "claude"
+        dangerouslySkipPermissions: true
+        model: "claude-sonnet-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 180
+        maxConcurrentRuns: 1
+  devops:
+    role: "general"
+    icon: "server"
+    capabilities: "CI/CD, monitoring (Sentry, Vercel), deployments, infrastructure management, incident response, system reliability."
+    adapter:
+      config:
+        command: "claude"
+        dangerouslySkipPermissions: true
+        model: "claude-sonnet-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 300
+        maxConcurrentRuns: 1
+  agent-debugger:
+    role: "general"
+    adapter:
+      config:
+        command: "claude"
+        dangerouslySkipPermissions: true
+        model: "claude-opus-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 300
+        maxConcurrentRuns: 1
+  content-writer:
+    role: "general"
+    icon: "pen-tool"
+    capabilities: "LinkedIn posts, email sequences, landing page copy, case studies, product announcements. Creative executor for the marketing team."
+    adapter:
+      config:
+        command: "claude"
+        dangerouslySkipPermissions: true
+        model: "claude-sonnet-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 180
+        maxConcurrentRuns: 1
+  content-strategist:
+    role: "general"
+    icon: "eye"
+    capabilities: "LinkedIn content intelligence, social listening, post engagement preparation (likes/comments), content idea generation, trend analysis for coach segment."
+    adapter:
+      config:
+        command: "claude"
+        dangerouslySkipPermissions: true
+        model: "claude-sonnet-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 300
+        maxConcurrentRuns: 1
+  sdr:
+    role: "general"
+    icon: "phone"
+    capabilities: "Outbound prospecting, lead qualification (BANT), personalized LinkedIn outreach, demo booking, pipeline management."
+    adapter:
+      config:
+        command: "claude"
+        dangerouslySkipPermissions: true
+        model: "claude-sonnet-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 180
+        maxConcurrentRuns: 1
+  csm:
+    role: "general"
+    icon: "heart"
+    capabilities: "Customer onboarding, health monitoring, proactive outreach, feature adoption, churn prevention, upsell identification, feedback collection."
+    adapter:
+      config:
+        command: "claude"
+        dangerouslySkipPermissions: true
+        model: "claude-sonnet-4-6"
+      type: "claude_local"
+    runtime:
+      heartbeat:
+        enabled: true
+        intervalSec: 180
+        maxConcurrentRuns: 1
+projects:
+  onboarding:
+    color: "#6366f1"
+    status: "in_progress"
+sidebar:
+  agents:
+    - "ceo"
+    - "product"
+    - "cmo"
+    - "content-writer"
+    - "content-strategist"
+    - "cto"
+    - "fullstack-dev"
+    - "uxdesigner"
+    - "qa-engineer"
+    - "devops"
+    - "agent-debugger"
+    - "head-of-sales"
+    - "sdr"
+    - "csm"
+  projects:
+    - "onboarding"

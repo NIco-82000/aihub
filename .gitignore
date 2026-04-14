@@ -1,0 +1,25 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local caches (skills installed via npx)
+.agents/
+.claude/
+
+# Backups
+*.bak
+.debugger.md.bak
+
+# Lock files (regenerated)
+skills-lock.json
+
+# Env
+.env
+.env.local
+.env.*.local
