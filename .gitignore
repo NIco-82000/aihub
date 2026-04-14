@@ -8,18 +8,13 @@ Thumbs.db
 *.swp
 *.swo
 
-# Local caches (skills installed via npx)
-.agents/
+# Local caches
 .claude/
+.agents/
+.agents-cache/
 
 # Backups
 *.bak
-.debugger.md.bak
 
-# Lock files (regenerated)
+# Lock files
 skills-lock.json
-
-# Env
-.env
-.env.local
-.env.*.local
